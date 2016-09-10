@@ -10,6 +10,8 @@ Pass level information at function calls
 createLevelLL(TreeNode t){al; createLevelLL(t,0,al)}
 createLevelLL(TreeNode t, int level, ArrayList<> al){ createLevelLL(t.left,level+1,al);createLevelLL(t.right,level+1,al);}
 
+Both of methods run in O(n) Time and O(n) Space
+
 
 
 
