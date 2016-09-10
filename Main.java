@@ -76,13 +76,6 @@ public class Main {
 		createLevelLL(t.right,al,level+1);
 		
 	}
-	
-	
-	public static void printTree(TreeNode root){
-		if(root==null) return;
-		if(root.left!=null)printTree(root.left);
-		System.out.println(root.data);
-		if(root.right!=null)printTree(root.right);
-	}
+
 
 }
